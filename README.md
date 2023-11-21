@@ -37,10 +37,12 @@ Pastikan webserver Apache dan MySQL server sudah dijalankan. Kemudian untuk meng
 
 ## 3. Membuat Program CRUD
 
-Buat folder lab8_php_database pada root directory web server , misal ***(C:/xampp/htdocs).***
+Buat folder ``lab8_php_database`` pada root directory web server , misal ***(C:/xampp/htdocs).***
 
 ![](screenshot/ss6.png)
 
 Kemudian untuk mengakses direktory tersebut pada web server dengan mengakses URL: http://localhost/lab8_php_database/
 
 ![](screenshot/ss7.png)
+
+## Masih belum selesai , saya lagi cari cara agar 'MySQL XAMPP' dan 'MySQL Workbench' agar tidak bentrok.
