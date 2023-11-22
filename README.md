@@ -47,9 +47,11 @@ Kemudian untuk mengakses direktory tersebut pada web server dengan mengakses URL
 
 ## Membuat File Koneksi Database
 
-Buat file baru dengan nama ***koneksi.php***
+Buat file baru dengan nama ``koneksi.php``
 
 Lalu masukan kode program seperti berikut :
+
+Untuk mengaksesnya gunakan URL : http://localhost/lab8_php_database/koneksi.php
 
 ```
 <?php
@@ -73,9 +75,11 @@ Buka melalui browser untuk menguji koneksi database untuk menyampilkan pesan kon
 
 ## Membuat file index untuk menampilkan data (Read)
 
-Buat file baru dengan nama ***index.php***
+Buat file baru dengan nama ``index.php``
 
 Lalu masukan kode program seperti berikut :
+
+Untuk mengaksesnya gunakan URL : http://localhost/lab8_php_database/index.php
 
 ```
 <?php
@@ -141,7 +145,7 @@ $result = mysqli_query($conn, $sql);
 
 ## Menambah Data 'Create'
 
-Buat file baru dengan nama ***tambah.php***
+Buat file baru dengan nama ``tambah.php``
 
 Lalu masukan kode program seperti berikut :
 
@@ -233,9 +237,11 @@ if (isset($_POST['submit']))
 
 ## Mengubah Data 'Update'
 
-Buat file baru dengan nama ***ubah.php***
+Buat file baru dengan nama ``ubah.php``
 
 Lalu masukan kode program seperti berikut :
+
+Untuk mengaksesnya gunakan URL : http://localhost/lab8_php_database/ubah.php?id=1
 
 ```
 <?php
@@ -351,7 +357,7 @@ if (isset($_POST['submit']))
 
 ## Menghapus Data 'Delete'
 
-Buat file baru dengan nama ***hapus.php***
+Buat file baru dengan nama ``hapus.php``
 
 Lalu masukan kode program seperti berikut :
 
@@ -370,3 +376,14 @@ header('location: index.php');
 ![](screenshot/ss10.png)
 
 **Setelah dihapus :**
+
+![](screenshot/ss12.png)
+
+>
+***Penjelasan :***
+
+Untuk menghapus data , bisa langsung klik tombol "Hapus".
+>
+
+
+## SELESAI <img align="center" alt="Ikhsan-Python" height="40" width="45" src="https://em-content.zobj.net/source/microsoft-teams/337/student_1f9d1-200d-1f393.png"> <img align="center" alt="Ikhsan-Python" height="40" width="45" src="https://em-content.zobj.net/thumbs/160/twitter/348/flag-indonesia_1f1ee-1f1e9.png">
